@@ -1,0 +1,82 @@
+.Second_header {
+  display: flex;
+  width: 100%;
+  max-width: 1235px;
+
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+  border-radius: 5px;
+  margin-top: 80px;
+  background: white;
+  justify-content: space-between;
+  height: 70px;
+  padding: 15px;
+  box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.26);
+}
+.headerContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.icon {
+  color: darkgray;
+  margin-left: 40px;
+}
+
+.btn {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select {
+  color: black;
+  visibility: hidden;
+  /* opacity: 0; */
+  position: absolute;
+  left: 0;
+  background-color: white;
+
+  top: 70px;
+  /* z-index: -1; */
+  transition: all 0.3s ease, visibility 0s ease, z-index 0s ease;
+}
+.btn:hover .select {
+  visibility: visible;
+  z-index: 1;
+  margin-right: 130px;
+  top: 53px;
+  background-color: white;
+
+  left: 0;
+  /* opacity: 1; */
+  transition-delay: 0s, 0s, 0.3s;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  text-decoration: none;
+  padding: 10px;
+  transition: left 0.3s ease;
+
+  position: relative;
+  left: 0;
+}
+.menu span {
+  color: #f1701a;
+  width: 20px;
+}
+.menu p {
+  width: 200px;
+  color: #000000;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.menu:hover {
+  left: 10px;
+}

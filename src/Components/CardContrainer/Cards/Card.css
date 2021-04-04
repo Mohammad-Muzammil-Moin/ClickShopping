@@ -1,0 +1,91 @@
+.card {
+  width: 100%;
+  position: relative;
+  left: 20px;
+  max-width: 260px;
+  height: 380px;
+  color: white;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.26);
+  transition: bottom 0.2s linear;
+  position: relative;
+  bottom: 0;
+}
+.card:hover {
+  box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.26);
+  bottom: 10px;
+}
+.card img {
+  width: 99%;
+  max-width: 300px;
+  height: 165px;
+}
+
+.price_tage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  /* width: 220px; */
+}
+.price {
+  display: flex;
+  flex-direction: column;
+}
+.new_price {
+  font-weight: bold;
+  margin-top: 2px;
+  color: #000000dc;
+}
+.old_price {
+  font-weight: lighter;
+  color: black;
+  font-size: 12px;
+}
+.card_description {
+  padding: 10px;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+.card_description h4 {
+  font-weight: bold;
+  color: #000000dc;
+
+  font-size: 18px;
+}
+.card_description p {
+  color: #726d6d;
+  font-weight: lighter;
+}
+.btn {
+  font-size: 18px;
+  width: 100%;
+  max-width: 420px;
+}
+/* Second type of card css at the bottom  */
+
+.card_1 {
+  width: 100%;
+  position: relative;
+  /* left: 20px; */
+  max-width: 300px;
+  height: auto;
+  color: white;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.26);
+  transition: bottom 0.2s linear;
+  position: relative;
+  bottom: 0;
+}
+.card_1:hover {
+  box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.26);
+  bottom: 10px;
+}
+.card_1 img {
+  width: 98%;
+  padding-top: 5px;
+
+  padding-left: 5px;
+}

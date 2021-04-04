@@ -1,0 +1,52 @@
+.header {
+  /* display: flex; */
+  justify-content: flex-start;
+  height: 109px;
+  background: rgb(241, 236, 236);
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+.Header_container {
+  width: 100%;
+  z-index: 666;
+  /* background: #fff; */
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-bottom: 12px; */
+  /* padding-top: 12px; */
+
+  /* padding-left: 12px; */
+}
+
+::placeholder {
+  color: gray;
+  font-size: 12px;
+  padding-left: 0;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: gray;
+  font-size: 12px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: gray;
+  font-size: 12px;
+}
+@media only screen and (max-width: 1200px) {
+  .header {
+    height: 19px;
+  }
+  .Header_container {
+    padding-bottom: 12px;
+    padding-top: 22px;
+
+    padding-left: 12px;
+  }
+}
