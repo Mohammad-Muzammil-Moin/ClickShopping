@@ -3,15 +3,7 @@ import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import React from "react";
 import "./Card.css";
 import { Button, ButtonGroup } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
-const useStyles = makeStyles({
-  root: {
-    width: 124,
-    height: 40,
-  },
-});
 function Cards(props) {
-  const classes = useStyles();
   return (
     <>
       <div className="card">

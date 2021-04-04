@@ -1,5 +1,4 @@
 import React from "react";
-import image from "../shoppingcart.jpeg";
 import "./Banner.css";
 function Banner() {
   return (

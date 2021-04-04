@@ -1,11 +1,8 @@
-import { Card } from "@material-ui/core";
-import React, { component, useState } from "react";
+import React from "react";
 import Cards from "./Cards/Cards";
 import "./CardContainer.css";
 import { CardData } from "./CardData";
 import Carousel from "react-elastic-carousel";
-import { makeStyles } from "@material-ui/core/styles";
-const useStyles = makeStyles({});
 
 const breakPoints = [
   { width: 680, itemsToShow: 1 },
@@ -15,7 +12,6 @@ const breakPoints = [
 ];
 
 function CardContainer() {
-  const classes = useStyles();
   return (
     <>
       <div className="Container">

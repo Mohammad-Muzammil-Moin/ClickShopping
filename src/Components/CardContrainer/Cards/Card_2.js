@@ -17,7 +17,7 @@ function Cards_1(props) {
   return (
     <>
       <div className="card_1">
-        <img src={props.image} />
+        <img alt="cart" src={props.image} />
         <div className="price_tage">
           <Button
             disableElevation
