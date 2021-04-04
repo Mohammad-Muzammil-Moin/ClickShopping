@@ -46,7 +46,7 @@ function Cards_1(props) {
               color="primary"
               startIcon={<ShoppingCartIcon />}
             >
-              ADD TO CARt
+              ADD TO CART
             </Button>
           </ButtonGroup>
         </div>
