@@ -6,7 +6,7 @@ function Banner() {
     <>
       <div className="banner">
         <div className="banner_text">
-          <h1>Start your jurney</h1>
+          <h1>Start your journey</h1>
           <h2>SHOP NOW</h2>
         </div>
       </div>
