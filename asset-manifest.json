@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/ClickShopping/static/css/main.1830374d.chunk.css",
-    "main.js": "/ClickShopping/static/js/main.c846b1af.chunk.js",
-    "main.js.map": "/ClickShopping/static/js/main.c846b1af.chunk.js.map",
+    "main.css": "/ClickShopping/static/css/main.af7c6f63.chunk.css",
+    "main.js": "/ClickShopping/static/js/main.1b376d7d.chunk.js",
+    "main.js.map": "/ClickShopping/static/js/main.1b376d7d.chunk.js.map",
     "runtime-main.js": "/ClickShopping/static/js/runtime-main.6c578327.js",
     "runtime-main.js.map": "/ClickShopping/static/js/runtime-main.6c578327.js.map",
-    "static/js/2.dca77e84.chunk.js": "/ClickShopping/static/js/2.dca77e84.chunk.js",
-    "static/js/2.dca77e84.chunk.js.map": "/ClickShopping/static/js/2.dca77e84.chunk.js.map",
+    "static/js/2.232dbc10.chunk.js": "/ClickShopping/static/js/2.232dbc10.chunk.js",
+    "static/js/2.232dbc10.chunk.js.map": "/ClickShopping/static/js/2.232dbc10.chunk.js.map",
     "index.html": "/ClickShopping/index.html",
-    "static/css/main.1830374d.chunk.css.map": "/ClickShopping/static/css/main.1830374d.chunk.css.map",
-    "static/js/2.dca77e84.chunk.js.LICENSE.txt": "/ClickShopping/static/js/2.dca77e84.chunk.js.LICENSE.txt",
-    "static/media/shoppingcart.b58b84f8.jpeg": "/ClickShopping/static/media/shoppingcart.b58b84f8.jpeg"
+    "static/css/main.af7c6f63.chunk.css.map": "/ClickShopping/static/css/main.af7c6f63.chunk.css.map",
+    "static/js/2.232dbc10.chunk.js.LICENSE.txt": "/ClickShopping/static/js/2.232dbc10.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6c578327.js",
-    "static/js/2.dca77e84.chunk.js",
-    "static/css/main.1830374d.chunk.css",
-    "static/js/main.c846b1af.chunk.js"
+    "static/js/2.232dbc10.chunk.js",
+    "static/css/main.af7c6f63.chunk.css",
+    "static/js/main.1b376d7d.chunk.js"
   ]
 }
